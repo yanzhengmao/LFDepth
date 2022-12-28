@@ -1,0 +1,39 @@
+--mode train
+--model_name bts_hci_epi_v2_pytorch_att
+--encoder resnet101_bts
+--dataset hci
+--stage 1
+--data_path /data/Dataset/full_data/addational/
+--checkpoint_path /data/yanzhengmao/projects/LFDepth/pytorch/epi_1/epi_90000_0.461857_85.063179
+--batch_size 512
+--num_epochs 10
+--learning_rate 1e-4
+--weight_decay 1e-2
+--adam_eps 1e-3
+--warmup_epochs  1
+--warmup_lr  1e-5
+--min_lr  1e-6
+
+--lr_scheduler  cosine
+--decay_epochs 30
+--decay_rate 0.1
+--warmup_prefix True
+--gamma  0.1
+--milestones=[4,9]
+--multi_steps []
+
+--num_threads 1
+--max_depth 4
+--min_depth -4
+--input_height 1
+--input_width 13
+--log_directory ./epi_1
+--att_rank 5
+--multiprocessing_distributed
+--gpu 8
+
+--log_freq 500
+--save_freq 10000000
+--do_online_eval
+--eval_freq 5000
+--data_path_eval /data/Dataset/full_data/stratified/

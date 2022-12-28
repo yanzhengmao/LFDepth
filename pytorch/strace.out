@@ -1,0 +1,393 @@
+484169 10:46:11.262310 execve("/usr/bin/tmux", ["tmux", "new"], 0x7fff95769538 /* 71 vars */) = 0
+484169 10:46:11.265797 brk(NULL)        = 0x560971db6000
+484169 10:46:11.266073 arch_prctl(0x3001 /* ARCH_??? */, 0x7ffd81776610) = -1 EINVAL (Invalid argument)
+484169 10:46:11.266541 mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fc2d93f8000
+484169 10:46:11.266726 access("/etc/ld.so.preload", R_OK) = -1 ENOENT (No such file or directory)
+484169 10:46:11.266914 openat(AT_FDCWD, "/data/cuda/cuda-10.2/cuda/lib64/tls/haswell/avx512_1/x86_64/libutil.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+484169 10:46:11.267115 stat("/data/cuda/cuda-10.2/cuda/lib64/tls/haswell/avx512_1/x86_64", 0x7ffd81775860) = -1 ENOENT (No such file or directory)
+484169 10:46:11.267254 openat(AT_FDCWD, "/data/cuda/cuda-10.2/cuda/lib64/tls/haswell/avx512_1/libutil.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+484169 10:46:11.267389 stat("/data/cuda/cuda-10.2/cuda/lib64/tls/haswell/avx512_1", 0x7ffd81775860) = -1 ENOENT (No such file or directory)
+484169 10:46:11.267518 openat(AT_FDCWD, "/data/cuda/cuda-10.2/cuda/lib64/tls/haswell/x86_64/libutil.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+484169 10:46:11.267652 stat("/data/cuda/cuda-10.2/cuda/lib64/tls/haswell/x86_64", 0x7ffd81775860) = -1 ENOENT (No such file or directory)
+484169 10:46:11.267796 openat(AT_FDCWD, "/data/cuda/cuda-10.2/cuda/lib64/tls/haswell/libutil.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+484169 10:46:11.267933 stat("/data/cuda/cuda-10.2/cuda/lib64/tls/haswell", 0x7ffd81775860) = -1 ENOENT (No such file or directory)
+484169 10:46:11.268060 openat(AT_FDCWD, "/data/cuda/cuda-10.2/cuda/lib64/tls/avx512_1/x86_64/libutil.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+484169 10:46:11.268197 stat("/data/cuda/cuda-10.2/cuda/lib64/tls/avx512_1/x86_64", 0x7ffd81775860) = -1 ENOENT (No such file or directory)
+484169 10:46:11.268322 openat(AT_FDCWD, "/data/cuda/cuda-10.2/cuda/lib64/tls/avx512_1/libutil.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+484169 10:46:11.268455 stat("/data/cuda/cuda-10.2/cuda/lib64/tls/avx512_1", 0x7ffd81775860) = -1 ENOENT (No such file or directory)
+484169 10:46:11.268578 openat(AT_FDCWD, "/data/cuda/cuda-10.2/cuda/lib64/tls/x86_64/libutil.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+484169 10:46:11.268699 stat("/data/cuda/cuda-10.2/cuda/lib64/tls/x86_64", 0x7ffd81775860) = -1 ENOENT (No such file or directory)
+484169 10:46:11.268836 openat(AT_FDCWD, "/data/cuda/cuda-10.2/cuda/lib64/tls/libutil.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+484169 10:46:11.268968 stat("/data/cuda/cuda-10.2/cuda/lib64/tls", 0x7ffd81775860) = -1 ENOENT (No such file or directory)
+484169 10:46:11.269091 openat(AT_FDCWD, "/data/cuda/cuda-10.2/cuda/lib64/haswell/avx512_1/x86_64/libutil.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+484169 10:46:11.269228 stat("/data/cuda/cuda-10.2/cuda/lib64/haswell/avx512_1/x86_64", 0x7ffd81775860) = -1 ENOENT (No such file or directory)
+484169 10:46:11.269354 openat(AT_FDCWD, "/data/cuda/cuda-10.2/cuda/lib64/haswell/avx512_1/libutil.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+484169 10:46:11.269486 stat("/data/cuda/cuda-10.2/cuda/lib64/haswell/avx512_1", 0x7ffd81775860) = -1 ENOENT (No such file or directory)
+484169 10:46:11.269615 openat(AT_FDCWD, "/data/cuda/cuda-10.2/cuda/lib64/haswell/x86_64/libutil.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+484169 10:46:11.269763 stat("/data/cuda/cuda-10.2/cuda/lib64/haswell/x86_64", 0x7ffd81775860) = -1 ENOENT (No such file or directory)
+484169 10:46:11.269894 openat(AT_FDCWD, "/data/cuda/cuda-10.2/cuda/lib64/haswell/libutil.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+484169 10:46:11.270054 stat("/data/cuda/cuda-10.2/cuda/lib64/haswell", 0x7ffd81775860) = -1 ENOENT (No such file or directory)
+484169 10:46:11.270174 openat(AT_FDCWD, "/data/cuda/cuda-10.2/cuda/lib64/avx512_1/x86_64/libutil.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+484169 10:46:11.270309 stat("/data/cuda/cuda-10.2/cuda/lib64/avx512_1/x86_64", 0x7ffd81775860) = -1 ENOENT (No such file or directory)
+484169 10:46:11.270436 openat(AT_FDCWD, "/data/cuda/cuda-10.2/cuda/lib64/avx512_1/libutil.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+484169 10:46:11.270555 stat("/data/cuda/cuda-10.2/cuda/lib64/avx512_1", 0x7ffd81775860) = -1 ENOENT (No such file or directory)
+484169 10:46:11.270684 openat(AT_FDCWD, "/data/cuda/cuda-10.2/cuda/lib64/x86_64/libutil.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+484169 10:46:11.270831 stat("/data/cuda/cuda-10.2/cuda/lib64/x86_64", 0x7ffd81775860) = -1 ENOENT (No such file or directory)
+484169 10:46:11.270953 openat(AT_FDCWD, "/data/cuda/cuda-10.2/cuda/lib64/libutil.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+484169 10:46:11.271082 stat("/data/cuda/cuda-10.2/cuda/lib64", {st_mode=S_IFDIR|0775, st_size=4096, ...}) = 0
+484169 10:46:11.271191 openat(AT_FDCWD, "/data/cuda/cuda-10.2/cudnn/v8.0.4/lib64/tls/haswell/avx512_1/x86_64/libutil.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+484169 10:46:11.271296 stat("/data/cuda/cuda-10.2/cudnn/v8.0.4/lib64/tls/haswell/avx512_1/x86_64", 0x7ffd81775860) = -1 ENOENT (No such file or directory)
+484169 10:46:11.271382 openat(AT_FDCWD, "/data/cuda/cuda-10.2/cudnn/v8.0.4/lib64/tls/haswell/avx512_1/libutil.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+484169 10:46:11.271469 stat("/data/cuda/cuda-10.2/cudnn/v8.0.4/lib64/tls/haswell/avx512_1", 0x7ffd81775860) = -1 ENOENT (No such file or directory)
+484169 10:46:11.271551 openat(AT_FDCWD, "/data/cuda/cuda-10.2/cudnn/v8.0.4/lib64/tls/haswell/x86_64/libutil.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+484169 10:46:11.271638 stat("/data/cuda/cuda-10.2/cudnn/v8.0.4/lib64/tls/haswell/x86_64", 0x7ffd81775860) = -1 ENOENT (No such file or directory)
+484169 10:46:11.271720 openat(AT_FDCWD, "/data/cuda/cuda-10.2/cudnn/v8.0.4/lib64/tls/haswell/libutil.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+484169 10:46:11.271828 stat("/data/cuda/cuda-10.2/cudnn/v8.0.4/lib64/tls/haswell", 0x7ffd81775860) = -1 ENOENT (No such file or directory)
+484169 10:46:11.271911 openat(AT_FDCWD, "/data/cuda/cuda-10.2/cudnn/v8.0.4/lib64/tls/avx512_1/x86_64/libutil.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+484169 10:46:11.271997 stat("/data/cuda/cuda-10.2/cudnn/v8.0.4/lib64/tls/avx512_1/x86_64", 0x7ffd81775860) = -1 ENOENT (No such file or directory)
+484169 10:46:11.272084 openat(AT_FDCWD, "/data/cuda/cuda-10.2/cudnn/v8.0.4/lib64/tls/avx512_1/libutil.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+484169 10:46:11.272169 stat("/data/cuda/cuda-10.2/cudnn/v8.0.4/lib64/tls/avx512_1", 0x7ffd81775860) = -1 ENOENT (No such file or directory)
+484169 10:46:11.272252 openat(AT_FDCWD, "/data/cuda/cuda-10.2/cudnn/v8.0.4/lib64/tls/x86_64/libutil.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+484169 10:46:11.272327 stat("/data/cuda/cuda-10.2/cudnn/v8.0.4/lib64/tls/x86_64", 0x7ffd81775860) = -1 ENOENT (No such file or directory)
+484169 10:46:11.272368 openat(AT_FDCWD, "/data/cuda/cuda-10.2/cudnn/v8.0.4/lib64/tls/libutil.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+484169 10:46:11.272413 stat("/data/cuda/cuda-10.2/cudnn/v8.0.4/lib64/tls", 0x7ffd81775860) = -1 ENOENT (No such file or directory)
+484169 10:46:11.272453 openat(AT_FDCWD, "/data/cuda/cuda-10.2/cudnn/v8.0.4/lib64/haswell/avx512_1/x86_64/libutil.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+484169 10:46:11.272499 stat("/data/cuda/cuda-10.2/cudnn/v8.0.4/lib64/haswell/avx512_1/x86_64", 0x7ffd81775860) = -1 ENOENT (No such file or directory)
+484169 10:46:11.272546 openat(AT_FDCWD, "/data/cuda/cuda-10.2/cudnn/v8.0.4/lib64/haswell/avx512_1/libutil.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+484169 10:46:11.272593 stat("/data/cuda/cuda-10.2/cudnn/v8.0.4/lib64/haswell/avx512_1", 0x7ffd81775860) = -1 ENOENT (No such file or directory)
+484169 10:46:11.272632 openat(AT_FDCWD, "/data/cuda/cuda-10.2/cudnn/v8.0.4/lib64/haswell/x86_64/libutil.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+484169 10:46:11.272673 stat("/data/cuda/cuda-10.2/cudnn/v8.0.4/lib64/haswell/x86_64", 0x7ffd81775860) = -1 ENOENT (No such file or directory)
+484169 10:46:11.272713 openat(AT_FDCWD, "/data/cuda/cuda-10.2/cudnn/v8.0.4/lib64/haswell/libutil.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+484169 10:46:11.272766 stat("/data/cuda/cuda-10.2/cudnn/v8.0.4/lib64/haswell", 0x7ffd81775860) = -1 ENOENT (No such file or directory)
+484169 10:46:11.272801 openat(AT_FDCWD, "/data/cuda/cuda-10.2/cudnn/v8.0.4/lib64/avx512_1/x86_64/libutil.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+484169 10:46:11.272848 stat("/data/cuda/cuda-10.2/cudnn/v8.0.4/lib64/avx512_1/x86_64", 0x7ffd81775860) = -1 ENOENT (No such file or directory)
+484169 10:46:11.272892 openat(AT_FDCWD, "/data/cuda/cuda-10.2/cudnn/v8.0.4/lib64/avx512_1/libutil.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+484169 10:46:11.272938 stat("/data/cuda/cuda-10.2/cudnn/v8.0.4/lib64/avx512_1", 0x7ffd81775860) = -1 ENOENT (No such file or directory)
+484169 10:46:11.272982 openat(AT_FDCWD, "/data/cuda/cuda-10.2/cudnn/v8.0.4/lib64/x86_64/libutil.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+484169 10:46:11.273028 stat("/data/cuda/cuda-10.2/cudnn/v8.0.4/lib64/x86_64", 0x7ffd81775860) = -1 ENOENT (No such file or directory)
+484169 10:46:11.273069 openat(AT_FDCWD, "/data/cuda/cuda-10.2/cudnn/v8.0.4/lib64/libutil.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+484169 10:46:11.273113 stat("/data/cuda/cuda-10.2/cudnn/v8.0.4/lib64", {st_mode=S_IFDIR|0775, st_size=4096, ...}) = 0
+484169 10:46:11.273168 openat(AT_FDCWD, "/data/cuda/cuda-11.2/cuda/lib64/tls/haswell/avx512_1/x86_64/libutil.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+484169 10:46:11.273252 stat("/data/cuda/cuda-11.2/cuda/lib64/tls/haswell/avx512_1/x86_64", 0x7ffd81775860) = -1 ENOENT (No such file or directory)
+484169 10:46:11.273296 openat(AT_FDCWD, "/data/cuda/cuda-11.2/cuda/lib64/tls/haswell/avx512_1/libutil.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+484169 10:46:11.273342 stat("/data/cuda/cuda-11.2/cuda/lib64/tls/haswell/avx512_1", 0x7ffd81775860) = -1 ENOENT (No such file or directory)
+484169 10:46:11.273385 openat(AT_FDCWD, "/data/cuda/cuda-11.2/cuda/lib64/tls/haswell/x86_64/libutil.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+484169 10:46:11.273429 stat("/data/cuda/cuda-11.2/cuda/lib64/tls/haswell/x86_64", 0x7ffd81775860) = -1 ENOENT (No such file or directory)
+484169 10:46:11.273472 openat(AT_FDCWD, "/data/cuda/cuda-11.2/cuda/lib64/tls/haswell/libutil.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+484169 10:46:11.273516 stat("/data/cuda/cuda-11.2/cuda/lib64/tls/haswell", 0x7ffd81775860) = -1 ENOENT (No such file or directory)
+484169 10:46:11.273560 openat(AT_FDCWD, "/data/cuda/cuda-11.2/cuda/lib64/tls/avx512_1/x86_64/libutil.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+484169 10:46:11.273604 stat("/data/cuda/cuda-11.2/cuda/lib64/tls/avx512_1/x86_64", 0x7ffd81775860) = -1 ENOENT (No such file or directory)
+484169 10:46:11.273647 openat(AT_FDCWD, "/data/cuda/cuda-11.2/cuda/lib64/tls/avx512_1/libutil.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+484169 10:46:11.273691 stat("/data/cuda/cuda-11.2/cuda/lib64/tls/avx512_1", 0x7ffd81775860) = -1 ENOENT (No such file or directory)
+484169 10:46:11.273734 openat(AT_FDCWD, "/data/cuda/cuda-11.2/cuda/lib64/tls/x86_64/libutil.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+484169 10:46:11.273786 stat("/data/cuda/cuda-11.2/cuda/lib64/tls/x86_64", 0x7ffd81775860) = -1 ENOENT (No such file or directory)
+484169 10:46:11.273828 openat(AT_FDCWD, "/data/cuda/cuda-11.2/cuda/lib64/tls/libutil.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+484169 10:46:11.273876 stat("/data/cuda/cuda-11.2/cuda/lib64/tls", 0x7ffd81775860) = -1 ENOENT (No such file or directory)
+484169 10:46:11.273918 openat(AT_FDCWD, "/data/cuda/cuda-11.2/cuda/lib64/haswell/avx512_1/x86_64/libutil.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+484169 10:46:11.273971 stat("/data/cuda/cuda-11.2/cuda/lib64/haswell/avx512_1/x86_64", 0x7ffd81775860) = -1 ENOENT (No such file or directory)
+484169 10:46:11.274016 openat(AT_FDCWD, "/data/cuda/cuda-11.2/cuda/lib64/haswell/avx512_1/libutil.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+484169 10:46:11.274061 stat("/data/cuda/cuda-11.2/cuda/lib64/haswell/avx512_1", 0x7ffd81775860) = -1 ENOENT (No such file or directory)
+484169 10:46:11.274105 openat(AT_FDCWD, "/data/cuda/cuda-11.2/cuda/lib64/haswell/x86_64/libutil.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+484169 10:46:11.274151 stat("/data/cuda/cuda-11.2/cuda/lib64/haswell/x86_64", 0x7ffd81775860) = -1 ENOENT (No such file or directory)
+484169 10:46:11.274193 openat(AT_FDCWD, "/data/cuda/cuda-11.2/cuda/lib64/haswell/libutil.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+484169 10:46:11.274238 stat("/data/cuda/cuda-11.2/cuda/lib64/haswell", 0x7ffd81775860) = -1 ENOENT (No such file or directory)
+484169 10:46:11.274281 openat(AT_FDCWD, "/data/cuda/cuda-11.2/cuda/lib64/avx512_1/x86_64/libutil.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+484169 10:46:11.274325 stat("/data/cuda/cuda-11.2/cuda/lib64/avx512_1/x86_64", 0x7ffd81775860) = -1 ENOENT (No such file or directory)
+484169 10:46:11.274368 openat(AT_FDCWD, "/data/cuda/cuda-11.2/cuda/lib64/avx512_1/libutil.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+484169 10:46:11.274412 stat("/data/cuda/cuda-11.2/cuda/lib64/avx512_1", 0x7ffd81775860) = -1 ENOENT (No such file or directory)
+484169 10:46:11.274453 openat(AT_FDCWD, "/data/cuda/cuda-11.2/cuda/lib64/x86_64/libutil.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+484169 10:46:11.274497 stat("/data/cuda/cuda-11.2/cuda/lib64/x86_64", 0x7ffd81775860) = -1 ENOENT (No such file or directory)
+484169 10:46:11.274540 openat(AT_FDCWD, "/data/cuda/cuda-11.2/cuda/lib64/libutil.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+484169 10:46:11.274583 stat("/data/cuda/cuda-11.2/cuda/lib64", {st_mode=S_IFDIR|0775, st_size=4096, ...}) = 0
+484169 10:46:11.274637 openat(AT_FDCWD, "/data/cuda/cuda-11.2/cudnn/v8.1.0/lib64/tls/haswell/avx512_1/x86_64/libutil.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+484169 10:46:11.274689 stat("/data/cuda/cuda-11.2/cudnn/v8.1.0/lib64/tls/haswell/avx512_1/x86_64", 0x7ffd81775860) = -1 ENOENT (No such file or directory)
+484169 10:46:11.274730 openat(AT_FDCWD, "/data/cuda/cuda-11.2/cudnn/v8.1.0/lib64/tls/haswell/avx512_1/libutil.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+484169 10:46:11.274783 stat("/data/cuda/cuda-11.2/cudnn/v8.1.0/lib64/tls/haswell/avx512_1", 0x7ffd81775860) = -1 ENOENT (No such file or directory)
+484169 10:46:11.274828 openat(AT_FDCWD, "/data/cuda/cuda-11.2/cudnn/v8.1.0/lib64/tls/haswell/x86_64/libutil.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+484169 10:46:11.274873 stat("/data/cuda/cuda-11.2/cudnn/v8.1.0/lib64/tls/haswell/x86_64", 0x7ffd81775860) = -1 ENOENT (No such file or directory)
+484169 10:46:11.274918 openat(AT_FDCWD, "/data/cuda/cuda-11.2/cudnn/v8.1.0/lib64/tls/haswell/libutil.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+484169 10:46:11.274962 stat("/data/cuda/cuda-11.2/cudnn/v8.1.0/lib64/tls/haswell", 0x7ffd81775860) = -1 ENOENT (No such file or directory)
+484169 10:46:11.275006 openat(AT_FDCWD, "/data/cuda/cuda-11.2/cudnn/v8.1.0/lib64/tls/avx512_1/x86_64/libutil.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+484169 10:46:11.275052 stat("/data/cuda/cuda-11.2/cudnn/v8.1.0/lib64/tls/avx512_1/x86_64", 0x7ffd81775860) = -1 ENOENT (No such file or directory)
+484169 10:46:11.275102 openat(AT_FDCWD, "/data/cuda/cuda-11.2/cudnn/v8.1.0/lib64/tls/avx512_1/libutil.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+484169 10:46:11.275148 stat("/data/cuda/cuda-11.2/cudnn/v8.1.0/lib64/tls/avx512_1", 0x7ffd81775860) = -1 ENOENT (No such file or directory)
+484169 10:46:11.275196 openat(AT_FDCWD, "/data/cuda/cuda-11.2/cudnn/v8.1.0/lib64/tls/x86_64/libutil.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+484169 10:46:11.275241 stat("/data/cuda/cuda-11.2/cudnn/v8.1.0/lib64/tls/x86_64", 0x7ffd81775860) = -1 ENOENT (No such file or directory)
+484169 10:46:11.275284 openat(AT_FDCWD, "/data/cuda/cuda-11.2/cudnn/v8.1.0/lib64/tls/libutil.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+484169 10:46:11.275329 stat("/data/cuda/cuda-11.2/cudnn/v8.1.0/lib64/tls", 0x7ffd81775860) = -1 ENOENT (No such file or directory)
+484169 10:46:11.275373 openat(AT_FDCWD, "/data/cuda/cuda-11.2/cudnn/v8.1.0/lib64/haswell/avx512_1/x86_64/libutil.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+484169 10:46:11.275420 stat("/data/cuda/cuda-11.2/cudnn/v8.1.0/lib64/haswell/avx512_1/x86_64", 0x7ffd81775860) = -1 ENOENT (No such file or directory)
+484169 10:46:11.275464 openat(AT_FDCWD, "/data/cuda/cuda-11.2/cudnn/v8.1.0/lib64/haswell/avx512_1/libutil.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+484169 10:46:11.275509 stat("/data/cuda/cuda-11.2/cudnn/v8.1.0/lib64/haswell/avx512_1", 0x7ffd81775860) = -1 ENOENT (No such file or directory)
+484169 10:46:11.275554 openat(AT_FDCWD, "/data/cuda/cuda-11.2/cudnn/v8.1.0/lib64/haswell/x86_64/libutil.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+484169 10:46:11.275599 stat("/data/cuda/cuda-11.2/cudnn/v8.1.0/lib64/haswell/x86_64", 0x7ffd81775860) = -1 ENOENT (No such file or directory)
+484169 10:46:11.275643 openat(AT_FDCWD, "/data/cuda/cuda-11.2/cudnn/v8.1.0/lib64/haswell/libutil.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+484169 10:46:11.275686 stat("/data/cuda/cuda-11.2/cudnn/v8.1.0/lib64/haswell", 0x7ffd81775860) = -1 ENOENT (No such file or directory)
+484169 10:46:11.275731 openat(AT_FDCWD, "/data/cuda/cuda-11.2/cudnn/v8.1.0/lib64/avx512_1/x86_64/libutil.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+484169 10:46:11.275783 stat("/data/cuda/cuda-11.2/cudnn/v8.1.0/lib64/avx512_1/x86_64", 0x7ffd81775860) = -1 ENOENT (No such file or directory)
+484169 10:46:11.275827 openat(AT_FDCWD, "/data/cuda/cuda-11.2/cudnn/v8.1.0/lib64/avx512_1/libutil.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+484169 10:46:11.275871 stat("/data/cuda/cuda-11.2/cudnn/v8.1.0/lib64/avx512_1", 0x7ffd81775860) = -1 ENOENT (No such file or directory)
+484169 10:46:11.275915 openat(AT_FDCWD, "/data/cuda/cuda-11.2/cudnn/v8.1.0/lib64/x86_64/libutil.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+484169 10:46:11.275960 stat("/data/cuda/cuda-11.2/cudnn/v8.1.0/lib64/x86_64", 0x7ffd81775860) = -1 ENOENT (No such file or directory)
+484169 10:46:11.276002 openat(AT_FDCWD, "/data/cuda/cuda-11.2/cudnn/v8.1.0/lib64/libutil.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+484169 10:46:11.276050 stat("/data/cuda/cuda-11.2/cudnn/v8.1.0/lib64", {st_mode=S_IFDIR|0755, st_size=4096, ...}) = 0
+484169 10:46:11.276102 openat(AT_FDCWD, "/usr/local/nvidia/tls/haswell/avx512_1/x86_64/libutil.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+484169 10:46:11.276147 stat("/usr/local/nvidia/tls/haswell/avx512_1/x86_64", 0x7ffd81775860) = -1 ENOENT (No such file or directory)
+484169 10:46:11.276189 openat(AT_FDCWD, "/usr/local/nvidia/tls/haswell/avx512_1/libutil.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+484169 10:46:11.276233 stat("/usr/local/nvidia/tls/haswell/avx512_1", 0x7ffd81775860) = -1 ENOENT (No such file or directory)
+484169 10:46:11.276275 openat(AT_FDCWD, "/usr/local/nvidia/tls/haswell/x86_64/libutil.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+484169 10:46:11.276328 stat("/usr/local/nvidia/tls/haswell/x86_64", 0x7ffd81775860) = -1 ENOENT (No such file or directory)
+484169 10:46:11.276370 openat(AT_FDCWD, "/usr/local/nvidia/tls/haswell/libutil.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+484169 10:46:11.276413 stat("/usr/local/nvidia/tls/haswell", 0x7ffd81775860) = -1 ENOENT (No such file or directory)
+484169 10:46:11.276456 openat(AT_FDCWD, "/usr/local/nvidia/tls/avx512_1/x86_64/libutil.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+484169 10:46:11.276500 stat("/usr/local/nvidia/tls/avx512_1/x86_64", 0x7ffd81775860) = -1 ENOENT (No such file or directory)
+484169 10:46:11.276541 openat(AT_FDCWD, "/usr/local/nvidia/tls/avx512_1/libutil.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+484169 10:46:11.276585 stat("/usr/local/nvidia/tls/avx512_1", 0x7ffd81775860) = -1 ENOENT (No such file or directory)
+484169 10:46:11.276627 openat(AT_FDCWD, "/usr/local/nvidia/tls/x86_64/libutil.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+484169 10:46:11.276673 stat("/usr/local/nvidia/tls/x86_64", 0x7ffd81775860) = -1 ENOENT (No such file or directory)
+484169 10:46:11.276716 openat(AT_FDCWD, "/usr/local/nvidia/tls/libutil.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+484169 10:46:11.276759 stat("/usr/local/nvidia/tls", 0x7ffd81775860) = -1 ENOENT (No such file or directory)
+484169 10:46:11.276800 openat(AT_FDCWD, "/usr/local/nvidia/haswell/avx512_1/x86_64/libutil.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+484169 10:46:11.276845 stat("/usr/local/nvidia/haswell/avx512_1/x86_64", 0x7ffd81775860) = -1 ENOENT (No such file or directory)
+484169 10:46:11.276888 openat(AT_FDCWD, "/usr/local/nvidia/haswell/avx512_1/libutil.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+484169 10:46:11.276931 stat("/usr/local/nvidia/haswell/avx512_1", 0x7ffd81775860) = -1 ENOENT (No such file or directory)
+484169 10:46:11.276975 openat(AT_FDCWD, "/usr/local/nvidia/haswell/x86_64/libutil.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+484169 10:46:11.277018 stat("/usr/local/nvidia/haswell/x86_64", 0x7ffd81775860) = -1 ENOENT (No such file or directory)
+484169 10:46:11.277061 openat(AT_FDCWD, "/usr/local/nvidia/haswell/libutil.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+484169 10:46:11.277103 stat("/usr/local/nvidia/haswell", 0x7ffd81775860) = -1 ENOENT (No such file or directory)
+484169 10:46:11.277144 openat(AT_FDCWD, "/usr/local/nvidia/avx512_1/x86_64/libutil.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+484169 10:46:11.277187 stat("/usr/local/nvidia/avx512_1/x86_64", 0x7ffd81775860) = -1 ENOENT (No such file or directory)
+484169 10:46:11.277229 openat(AT_FDCWD, "/usr/local/nvidia/avx512_1/libutil.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+484169 10:46:11.277273 stat("/usr/local/nvidia/avx512_1", 0x7ffd81775860) = -1 ENOENT (No such file or directory)
+484169 10:46:11.277314 openat(AT_FDCWD, "/usr/local/nvidia/x86_64/libutil.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+484169 10:46:11.277358 stat("/usr/local/nvidia/x86_64", 0x7ffd81775860) = -1 ENOENT (No such file or directory)
+484169 10:46:11.277401 openat(AT_FDCWD, "/usr/local/nvidia/libutil.so.1", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+484169 10:46:11.277443 stat("/usr/local/nvidia", {st_mode=S_IFDIR|0755, st_size=19, ...}) = 0
+484169 10:46:11.277497 openat(AT_FDCWD, "/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3
+484169 10:46:11.277537 fstat(3, {st_mode=S_IFREG|0644, st_size=99756, ...}) = 0
+484169 10:46:11.277585 mmap(NULL, 99756, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7fc2d93df000
+484169 10:46:11.277626 close(3)         = 0
+484169 10:46:11.277677 openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libutil.so.1", O_RDONLY|O_CLOEXEC) = 3
+484169 10:46:11.277722 read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\340\23\0\0\0\0\0\0"..., 832) = 832
+484169 10:46:11.277776 fstat(3, {st_mode=S_IFREG|0644, st_size=14848, ...}) = 0
+484169 10:46:11.277825 mmap(NULL, 16656, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fc2d93da000
+484169 10:46:11.277866 mmap(0x7fc2d93db000, 4096, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1000) = 0x7fc2d93db000
+484169 10:46:11.277910 mmap(0x7fc2d93dc000, 4096, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x2000) = 0x7fc2d93dc000
+484169 10:46:11.277965 mmap(0x7fc2d93dd000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x2000) = 0x7fc2d93dd000
+484169 10:46:11.278024 close(3)         = 0
+484169 10:46:11.278067 openat(AT_FDCWD, "/data/cuda/cuda-10.2/cuda/lib64/libutempter.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+484169 10:46:11.278113 openat(AT_FDCWD, "/data/cuda/cuda-10.2/cudnn/v8.0.4/lib64/libutempter.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+484169 10:46:11.278159 openat(AT_FDCWD, "/data/cuda/cuda-11.2/cuda/lib64/libutempter.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+484169 10:46:11.278203 openat(AT_FDCWD, "/data/cuda/cuda-11.2/cudnn/v8.1.0/lib64/libutempter.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+484169 10:46:11.278250 openat(AT_FDCWD, "/usr/local/nvidia/libutempter.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+484169 10:46:11.278294 openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libutempter.so.0", O_RDONLY|O_CLOEXEC) = 3
+484169 10:46:11.278339 read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\240\21\0\0\0\0\0\0"..., 832) = 832
+484169 10:46:11.278385 fstat(3, {st_mode=S_IFREG|0644, st_size=14568, ...}) = 0
+484169 10:46:11.278433 mmap(NULL, 16416, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fc2d93d5000
+484169 10:46:11.278472 mmap(0x7fc2d93d6000, 4096, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1000) = 0x7fc2d93d6000
+484169 10:46:11.278521 mmap(0x7fc2d93d7000, 4096, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x2000) = 0x7fc2d93d7000
+484169 10:46:11.278562 mmap(0x7fc2d93d8000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x2000) = 0x7fc2d93d8000
+484169 10:46:11.278614 close(3)         = 0
+484169 10:46:11.278659 openat(AT_FDCWD, "/data/cuda/cuda-10.2/cuda/lib64/libtinfo.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+484169 10:46:11.278703 openat(AT_FDCWD, "/data/cuda/cuda-10.2/cudnn/v8.0.4/lib64/libtinfo.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+484169 10:46:11.278748 openat(AT_FDCWD, "/data/cuda/cuda-11.2/cuda/lib64/libtinfo.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+484169 10:46:11.278798 openat(AT_FDCWD, "/data/cuda/cuda-11.2/cudnn/v8.1.0/lib64/libtinfo.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+484169 10:46:11.278843 openat(AT_FDCWD, "/usr/local/nvidia/libtinfo.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+484169 10:46:11.278884 openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libtinfo.so.6", O_RDONLY|O_CLOEXEC) = 3
+484169 10:46:11.278927 read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\240\346\0\0\0\0\0\0"..., 832) = 832
+484169 10:46:11.278973 fstat(3, {st_mode=S_IFREG|0644, st_size=192032, ...}) = 0
+484169 10:46:11.279025 mmap(NULL, 194944, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fc2d93a5000
+484169 10:46:11.279063 mmap(0x7fc2d93b3000, 61440, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0xe000) = 0x7fc2d93b3000
+484169 10:46:11.279112 mmap(0x7fc2d93c2000, 57344, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1d000) = 0x7fc2d93c2000
+484169 10:46:11.279151 mmap(0x7fc2d93d0000, 20480, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x2a000) = 0x7fc2d93d0000
+484169 10:46:11.279201 close(3)         = 0
+484169 10:46:11.279251 openat(AT_FDCWD, "/data/cuda/cuda-10.2/cuda/lib64/libevent-2.1.so.7", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+484169 10:46:11.279295 openat(AT_FDCWD, "/data/cuda/cuda-10.2/cudnn/v8.0.4/lib64/libevent-2.1.so.7", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+484169 10:46:11.279341 openat(AT_FDCWD, "/data/cuda/cuda-11.2/cuda/lib64/libevent-2.1.so.7", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+484169 10:46:11.279385 openat(AT_FDCWD, "/data/cuda/cuda-11.2/cudnn/v8.1.0/lib64/libevent-2.1.so.7", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+484169 10:46:11.279430 openat(AT_FDCWD, "/usr/local/nvidia/libevent-2.1.so.7", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+484169 10:46:11.279476 openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libevent-2.1.so.7", O_RDONLY|O_CLOEXEC) = 3
+484169 10:46:11.279521 read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0 \314\0\0\0\0\0\0"..., 832) = 832
+484169 10:46:11.279564 fstat(3, {st_mode=S_IFREG|0644, st_size=346672, ...}) = 0
+484169 10:46:11.279615 mmap(NULL, 350472, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fc2d934f000
+484169 10:46:11.279652 mmap(0x7fc2d935b000, 212992, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0xc000) = 0x7fc2d935b000
+484169 10:46:11.279694 mmap(0x7fc2d938f000, 81920, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x40000) = 0x7fc2d938f000
+484169 10:46:11.279741 mmap(0x7fc2d93a3000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x53000) = 0x7fc2d93a3000
+484169 10:46:11.279794 close(3)         = 0
+484169 10:46:11.279843 openat(AT_FDCWD, "/data/cuda/cuda-10.2/cuda/lib64/libresolv.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+484169 10:46:11.279887 openat(AT_FDCWD, "/data/cuda/cuda-10.2/cudnn/v8.0.4/lib64/libresolv.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+484169 10:46:11.279928 openat(AT_FDCWD, "/data/cuda/cuda-11.2/cuda/lib64/libresolv.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+484169 10:46:11.279968 openat(AT_FDCWD, "/data/cuda/cuda-11.2/cudnn/v8.1.0/lib64/libresolv.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+484169 10:46:11.280010 openat(AT_FDCWD, "/usr/local/nvidia/libresolv.so.2", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+484169 10:46:11.280056 openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libresolv.so.2", O_RDONLY|O_CLOEXEC) = 3
+484169 10:46:11.280101 read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0 G\0\0\0\0\0\0"..., 832) = 832
+484169 10:46:11.280143 fstat(3, {st_mode=S_IFREG|0644, st_size=101320, ...}) = 0
+484169 10:46:11.280191 mmap(NULL, 113280, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fc2d9333000
+484169 10:46:11.280234 mmap(0x7fc2d9337000, 65536, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x4000) = 0x7fc2d9337000
+484169 10:46:11.280274 mmap(0x7fc2d9347000, 16384, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x14000) = 0x7fc2d9347000
+484169 10:46:11.280312 mmap(0x7fc2d934b000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x17000) = 0x7fc2d934b000
+484169 10:46:11.280361 mmap(0x7fc2d934d000, 6784, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7fc2d934d000
+484169 10:46:11.280412 close(3)         = 0
+484169 10:46:11.280456 openat(AT_FDCWD, "/data/cuda/cuda-10.2/cuda/lib64/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+484169 10:46:11.280505 openat(AT_FDCWD, "/data/cuda/cuda-10.2/cudnn/v8.0.4/lib64/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+484169 10:46:11.280547 openat(AT_FDCWD, "/data/cuda/cuda-11.2/cuda/lib64/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+484169 10:46:11.280591 openat(AT_FDCWD, "/data/cuda/cuda-11.2/cudnn/v8.1.0/lib64/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+484169 10:46:11.280634 openat(AT_FDCWD, "/usr/local/nvidia/libc.so.6", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+484169 10:46:11.280678 openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libc.so.6", O_RDONLY|O_CLOEXEC) = 3
+484169 10:46:11.280723 read(3, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\360A\2\0\0\0\0\0"..., 832) = 832
+484169 10:46:11.280772 pread64(3, "\6\0\0\0\4\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0"..., 784, 64) = 784
+484169 10:46:11.280818 pread64(3, "\4\0\0\0\20\0\0\0\5\0\0\0GNU\0\2\0\0\300\4\0\0\0\3\0\0\0\0\0\0\0", 32, 848) = 32
+484169 10:46:11.280858 pread64(3, "\4\0\0\0\24\0\0\0\3\0\0\0GNU\0\237\333t\347\262\27\320l\223\27*\202C\370T\177"..., 68, 880) = 68
+484169 10:46:11.280901 fstat(3, {st_mode=S_IFREG|0755, st_size=2029560, ...}) = 0
+484169 10:46:11.280949 mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fc2d9331000
+484169 10:46:11.280997 pread64(3, "\6\0\0\0\4\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0@\0\0\0\0\0\0\0"..., 784, 64) = 784
+484169 10:46:11.281037 pread64(3, "\4\0\0\0\20\0\0\0\5\0\0\0GNU\0\2\0\0\300\4\0\0\0\3\0\0\0\0\0\0\0", 32, 848) = 32
+484169 10:46:11.281076 pread64(3, "\4\0\0\0\24\0\0\0\3\0\0\0GNU\0\237\333t\347\262\27\320l\223\27*\202C\370T\177"..., 68, 880) = 68
+484169 10:46:11.281119 mmap(NULL, 2037344, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fc2d913f000
+484169 10:46:11.281160 mmap(0x7fc2d9161000, 1540096, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x22000) = 0x7fc2d9161000
+484169 10:46:11.281202 mmap(0x7fc2d92d9000, 319488, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x19a000) = 0x7fc2d92d9000
+484169 10:46:11.281241 mmap(0x7fc2d9327000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1e7000) = 0x7fc2d9327000
+484169 10:46:11.281285 mmap(0x7fc2d932d000, 13920, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7fc2d932d000
+484169 10:46:11.281333 close(3)         = 0
+484169 10:46:11.281383 openat(AT_FDCWD, "/data/cuda/cuda-10.2/cuda/lib64/libpthread.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+484169 10:46:11.281430 openat(AT_FDCWD, "/data/cuda/cuda-10.2/cudnn/v8.0.4/lib64/libpthread.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+484169 10:46:11.281473 openat(AT_FDCWD, "/data/cuda/cuda-11.2/cuda/lib64/libpthread.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+484169 10:46:11.281517 openat(AT_FDCWD, "/data/cuda/cuda-11.2/cudnn/v8.1.0/lib64/libpthread.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+484169 10:46:11.281562 openat(AT_FDCWD, "/usr/local/nvidia/libpthread.so.0", O_RDONLY|O_CLOEXEC) = -1 ENOENT (No such file or directory)
+484169 10:46:11.281606 openat(AT_FDCWD, "/lib/x86_64-linux-gnu/libpthread.so.0", O_RDONLY|O_CLOEXEC) = 3
+484169 10:46:11.281649 read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\220q\0\0\0\0\0\0"..., 832) = 832
+484169 10:46:11.281690 pread64(3, "\4\0\0\0\24\0\0\0\3\0\0\0GNU\0\360\2300%\360\340\363'\246\332u/\364\377\246u"..., 68, 824) = 68
+484169 10:46:11.281732 fstat(3, {st_mode=S_IFREG|0755, st_size=157224, ...}) = 0
+484169 10:46:11.281788 pread64(3, "\4\0\0\0\24\0\0\0\3\0\0\0GNU\0\360\2300%\360\340\363'\246\332u/\364\377\246u"..., 68, 824) = 68
+484169 10:46:11.281828 mmap(NULL, 140408, PROT_READ, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7fc2d911c000
+484169 10:46:11.281868 mmap(0x7fc2d9122000, 69632, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x6000) = 0x7fc2d9122000
+484169 10:46:11.281911 mmap(0x7fc2d9133000, 24576, PROT_READ, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x17000) = 0x7fc2d9133000
+484169 10:46:11.281963 mmap(0x7fc2d9139000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1c000) = 0x7fc2d9139000
+484169 10:46:11.282008 mmap(0x7fc2d913b000, 13432, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7fc2d913b000
+484169 10:46:11.282051 close(3)         = 0
+484169 10:46:11.282108 mmap(NULL, 12288, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7fc2d9119000
+484169 10:46:11.282156 arch_prctl(ARCH_SET_FS, 0x7fc2d9119740) = 0
+484169 10:46:11.282258 mprotect(0x7fc2d9327000, 16384, PROT_READ) = 0
+484169 10:46:11.282302 mprotect(0x7fc2d9139000, 4096, PROT_READ) = 0
+484169 10:46:11.282352 mprotect(0x7fc2d934b000, 4096, PROT_READ) = 0
+484169 10:46:11.282440 mprotect(0x7fc2d93a3000, 4096, PROT_READ) = 0
+484169 10:46:11.282516 mprotect(0x7fc2d93d0000, 16384, PROT_READ) = 0
+484169 10:46:11.282559 mprotect(0x7fc2d93d8000, 4096, PROT_READ) = 0
+484169 10:46:11.282603 mprotect(0x7fc2d93dd000, 4096, PROT_READ) = 0
+484169 10:46:11.282755 mprotect(0x56096fdcd000, 49152, PROT_READ) = 0
+484169 10:46:11.282798 mprotect(0x7fc2d9427000, 4096, PROT_READ) = 0
+484169 10:46:11.282839 munmap(0x7fc2d93df000, 99756) = 0
+484169 10:46:11.282898 set_tid_address(0x7fc2d9119a10) = 484169
+484169 10:46:11.282931 set_robust_list(0x7fc2d9119a20, 24) = 0
+484169 10:46:11.282974 rt_sigaction(SIGRTMIN, {sa_handler=0x7fc2d9122bf0, sa_mask=[], sa_flags=SA_RESTORER|SA_SIGINFO, sa_restorer=0x7fc2d91303c0}, NULL, 8) = 0
+484169 10:46:11.283019 rt_sigaction(SIGRT_1, {sa_handler=0x7fc2d9122c90, sa_mask=[], sa_flags=SA_RESTORER|SA_RESTART|SA_SIGINFO, sa_restorer=0x7fc2d91303c0}, NULL, 8) = 0
+484169 10:46:11.283065 rt_sigprocmask(SIG_UNBLOCK, [RTMIN RT_1], NULL, 8) = 0
+484169 10:46:11.283116 prlimit64(0, RLIMIT_STACK, NULL, {rlim_cur=8192*1024, rlim_max=RLIM64_INFINITY}) = 0
+484169 10:46:11.283247 brk(NULL)        = 0x560971db6000
+484169 10:46:11.283299 brk(0x560971dd7000) = 0x560971dd7000
+484169 10:46:11.283340 openat(AT_FDCWD, "/usr/lib/locale/locale-archive", O_RDONLY|O_CLOEXEC) = 3
+484169 10:46:11.283386 fstat(3, {st_mode=S_IFREG|0644, st_size=3035952, ...}) = 0
+484169 10:46:11.283434 mmap(NULL, 3035952, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7fc2d8e33000
+484169 10:46:11.283472 close(3)         = 0
+484169 10:46:11.283536 openat(AT_FDCWD, "/etc/localtime", O_RDONLY|O_CLOEXEC) = 3
+484169 10:46:11.283577 fstat(3, {st_mode=S_IFREG|0644, st_size=1217, ...}) = 0
+484169 10:46:11.283622 fstat(3, {st_mode=S_IFREG|0644, st_size=1217, ...}) = 0
+484169 10:46:11.283667 read(3, "TZif2\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\7\0\0\0\7\0\0\0\0"..., 4096) = 1217
+484169 10:46:11.283707 lseek(3, -750, SEEK_CUR) = 467
+484169 10:46:11.283750 read(3, "TZif2\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\7\0\0\0\7\0\0\0\0"..., 4096) = 750
+484169 10:46:11.283802 close(3)         = 0
+484169 10:46:11.283896 getcwd("/data/yanzhengmao/projects/LFDepth/pytorch", 4096) = 43
+484169 10:46:11.283942 lstat("/data", {st_mode=S_IFDIR|0777, st_size=121, ...}) = 0
+484169 10:46:11.283991 lstat("/data/yanzhengmao", {st_mode=S_IFDIR|0775, st_size=105, ...}) = 0
+484169 10:46:11.284038 lstat("/data/yanzhengmao/projects", {st_mode=S_IFDIR|0775, st_size=4096, ...}) = 0
+484169 10:46:11.284090 lstat("/data/yanzhengmao/projects/LFDepth", {st_mode=S_IFDIR|0775, st_size=4096, ...}) = 0
+484169 10:46:11.284139 lstat("/data/yanzhengmao/projects/LFDepth/pytorch", {st_mode=S_IFDIR|0775, st_size=4096, ...}) = 0
+484169 10:46:11.284189 lstat("/data", {st_mode=S_IFDIR|0777, st_size=121, ...}) = 0
+484169 10:46:11.284234 lstat("/data/yanzhengmao", {st_mode=S_IFDIR|0775, st_size=105, ...}) = 0
+484169 10:46:11.284280 lstat("/data/yanzhengmao/projects", {st_mode=S_IFDIR|0775, st_size=4096, ...}) = 0
+484169 10:46:11.284328 lstat("/data/yanzhengmao/projects/LFDepth", {st_mode=S_IFDIR|0775, st_size=4096, ...}) = 0
+484169 10:46:11.284378 lstat("/data/yanzhengmao/projects/LFDepth/pytorch", {st_mode=S_IFDIR|0775, st_size=4096, ...}) = 0
+484169 10:46:11.284503 access("/bin/bash", X_OK) = 0
+484169 10:46:11.284542 getuid()         = 10250
+484169 10:46:11.284576 lstat("/tmp", {st_mode=S_IFDIR|S_ISVTX|0777, st_size=2060, ...}) = 0
+484169 10:46:11.284625 lstat("/tmp/tmux-10250", {st_mode=S_IFDIR|0700, st_size=60, ...}) = 0
+484169 10:46:11.284671 mkdir("/tmp/tmux-10250", 0700) = -1 EEXIST (File exists)
+484169 10:46:11.284708 lstat("/tmp/tmux-10250", {st_mode=S_IFDIR|0700, st_size=60, ...}) = 0
+484169 10:46:11.284771 getuid()         = 10250
+484169 10:46:11.284820 geteuid()        = 10250
+484169 10:46:11.284854 getgid()         = 10250
+484169 10:46:11.284887 getegid()        = 10250
+484169 10:46:11.284931 getuid()         = 10250
+484169 10:46:11.284966 geteuid()        = 10250
+484169 10:46:11.285000 getgid()         = 10250
+484169 10:46:11.285034 getegid()        = 10250
+484169 10:46:11.285068 getuid()         = 10250
+484169 10:46:11.285102 geteuid()        = 10250
+484169 10:46:11.285144 getgid()         = 10250
+484169 10:46:11.285181 getegid()        = 10250
+484169 10:46:11.285219 pipe2([3, 4], O_NONBLOCK|O_CLOEXEC) = 0
+484169 10:46:11.285262 getpid()         = 484169
+484169 10:46:11.285295 getuid()         = 10250
+484169 10:46:11.285329 geteuid()        = 10250
+484169 10:46:11.285366 getgid()         = 10250
+484169 10:46:11.285400 getegid()        = 10250
+484169 10:46:11.285440 rt_sigaction(SIGCHLD, {sa_handler=SIG_IGN, sa_mask=[CHLD], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x7fc2d91820c0}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+484169 10:46:11.285505 prctl(PR_SET_NAME, "tmux: client") = 0
+484169 10:46:11.285541 uname({sysname="Linux", nodename="mmdet", ...}) = 0
+484169 10:46:11.285602 getpid()         = 484169
+484169 10:46:11.285643 rt_sigaction(SIGINT, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x7fc2d91820c0}, NULL, 8) = 0
+484169 10:46:11.285684 rt_sigaction(SIGPIPE, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x7fc2d91820c0}, NULL, 8) = 0
+484169 10:46:11.285725 rt_sigaction(SIGTSTP, {sa_handler=SIG_IGN, sa_mask=[], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x7fc2d91820c0}, NULL, 8) = 0
+484169 10:46:11.285770 rt_sigaction(SIGHUP, {sa_handler=0x7fc2d937a960, sa_mask=~[RTMIN RT_1], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x7fc2d91820c0}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+484169 10:46:11.285819 rt_sigaction(SIGCHLD, {sa_handler=0x7fc2d937a960, sa_mask=~[RTMIN RT_1], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x7fc2d91820c0}, {sa_handler=SIG_IGN, sa_mask=[CHLD], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x7fc2d91820c0}, 8) = 0
+484169 10:46:11.285868 rt_sigaction(SIGCONT, {sa_handler=0x7fc2d937a960, sa_mask=~[RTMIN RT_1], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x7fc2d91820c0}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+484169 10:46:11.285914 rt_sigaction(SIGTERM, {sa_handler=0x7fc2d937a960, sa_mask=~[RTMIN RT_1], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x7fc2d91820c0}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+484169 10:46:11.286005 rt_sigaction(SIGUSR1, {sa_handler=0x7fc2d937a960, sa_mask=~[RTMIN RT_1], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x7fc2d91820c0}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+484169 10:46:11.286054 rt_sigaction(SIGUSR2, {sa_handler=0x7fc2d937a960, sa_mask=~[RTMIN RT_1], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x7fc2d91820c0}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+484169 10:46:11.286103 rt_sigaction(SIGWINCH, {sa_handler=0x7fc2d937a960, sa_mask=~[RTMIN RT_1], sa_flags=SA_RESTORER|SA_RESTART, sa_restorer=0x7fc2d91820c0}, {sa_handler=SIG_DFL, sa_mask=[], sa_flags=0}, 8) = 0
+484169 10:46:11.286160 socket(AF_UNIX, SOCK_STREAM, 0) = 5
+484169 10:46:11.286197 connect(5, {sa_family=AF_UNIX, sun_path="/tmp/tmux-10250/default"}, 110) = 0
+484169 10:46:11.286281 fcntl(5, F_GETFL) = 0x2 (flags O_RDWR)
+484169 10:46:11.286317 fcntl(5, F_SETFL, O_RDWR|O_NONBLOCK) = 0
+484169 10:46:11.286394 getpid()         = 484169
+484169 10:46:11.286432 getcwd("/data/yanzhengmao/projects/LFDepth/pytorch", 4096) = 43
+484169 10:46:11.286470 lstat("/data", {st_mode=S_IFDIR|0777, st_size=121, ...}) = 0
+484169 10:46:11.286529 lstat("/data/yanzhengmao", {st_mode=S_IFDIR|0775, st_size=105, ...}) = 0
+484169 10:46:11.286578 lstat("/data/yanzhengmao/projects", {st_mode=S_IFDIR|0775, st_size=4096, ...}) = 0
+484169 10:46:11.286625 lstat("/data/yanzhengmao/projects/LFDepth", {st_mode=S_IFDIR|0775, st_size=4096, ...}) = 0
+484169 10:46:11.286676 lstat("/data/yanzhengmao/projects/LFDepth/pytorch", {st_mode=S_IFDIR|0775, st_size=4096, ...}) = 0
+484169 10:46:11.286726 lstat("/data", {st_mode=S_IFDIR|0777, st_size=121, ...}) = 0
+484169 10:46:11.286780 lstat("/data/yanzhengmao", {st_mode=S_IFDIR|0775, st_size=105, ...}) = 0
+484169 10:46:11.286826 lstat("/data/yanzhengmao/projects", {st_mode=S_IFDIR|0775, st_size=4096, ...}) = 0
+484169 10:46:11.286873 lstat("/data/yanzhengmao/projects/LFDepth", {st_mode=S_IFDIR|0775, st_size=4096, ...}) = 0
+484169 10:46:11.286920 lstat("/data/yanzhengmao/projects/LFDepth/pytorch", {st_mode=S_IFDIR|0775, st_size=4096, ...}) = 0
+484169 10:46:11.286973 ioctl(0, TCGETS, {B38400 opost isig icanon echo ...}) = 0
+484169 10:46:11.287012 fstat(0, {st_mode=S_IFCHR|0620, st_rdev=makedev(0x88, 0xe), ...}) = 0
+484169 10:46:11.287059 readlink("/proc/self/fd/0", "/dev/pts/14", 4095) = 11
+484169 10:46:11.287119 stat("/dev/pts/14", {st_mode=S_IFCHR|0620, st_rdev=makedev(0x88, 0xe), ...}) = 0
+484169 10:46:11.287168 close(2147483647) = -1 EBADF (Bad file descriptor)
+484169 10:46:11.287224 fcntl(0, F_GETFL) = 0x2 (flags O_RDWR)
+484169 10:46:11.287259 fcntl(0, F_SETFL, O_RDWR|O_NONBLOCK) = 0
+484169 10:46:11.287311 dup(0)           = 6
+484169 10:46:11.287346 getpid()         = 484169
+484169 10:46:11.287405 poll([{fd=3, events=POLLIN}, {fd=5, events=POLLIN|POLLOUT}], 2, -1) = 1 ([{fd=5, revents=POLLIN|POLLOUT|POLLHUP}])
+484169 10:46:11.287444 getpid()         = 484169
+484169 10:46:11.287480 openat(AT_FDCWD, "/proc/484169/fd", O_RDONLY|O_NONBLOCK|O_CLOEXEC|O_DIRECTORY) = 7
+484169 10:46:11.287517 fstat(7, {st_mode=S_IFDIR|0500, st_size=0, ...}) = 0
+484169 10:46:11.287560 brk(0x560971dfd000) = 0x560971dfd000
+484169 10:46:11.287598 getdents64(7, /* 18 entries */, 32768) = 432
+484169 10:46:11.287708 openat(AT_FDCWD, "/usr/lib/x86_64-linux-gnu/gconv/gconv-modules.cache", O_RDONLY) = 8
+484169 10:46:11.287754 fstat(8, {st_mode=S_IFREG|0644, st_size=27002, ...}) = 0
+484169 10:46:11.287796 mmap(NULL, 27002, PROT_READ, MAP_SHARED, 8, 0) = 0x7fc2d93f1000
+484169 10:46:11.287836 close(8)         = 0
+484169 10:46:11.287873 futex(0x7fc2d932c954, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+484169 10:46:11.287919 getdents64(7, /* 0 entries */, 32768) = 0
+484169 10:46:11.287959 brk(0x560971df5000) = 0x560971df5000
+484169 10:46:11.287994 close(7)         = 0
+484169 10:46:11.288030 prlimit64(0, RLIMIT_NOFILE, NULL, {rlim_cur=64*1024, rlim_max=64*1024}) = 0
+484169 10:46:11.288066 recvmsg(5, {msg_name=NULL, msg_namelen=0, msg_iov=[{iov_base="", iov_len=65535}], msg_iovlen=1, msg_controllen=0, msg_flags=0}, 0) = 0
+484169 10:46:11.288114 write(2, "server exited unexpectedly\n", 27) = 27
+484169 10:46:11.288161 fcntl(0, F_GETFL) = 0x802 (flags O_RDWR|O_NONBLOCK)
+484169 10:46:11.288195 fcntl(0, F_SETFL, O_RDWR) = 0
+484169 10:46:11.288240 exit_group(1)    = ?
+484169 10:46:11.288411 +++ exited with 1 +++

@@ -1,0 +1,24 @@
+--mode train
+--model_name bts_urban_v2_pytorch_att
+--encoder resnet101_bts
+--dataset urban
+--data_path /data/Dataset/UrbanLF-syn/train/
+--batch_size 32
+--num_epochs 1000
+--learning_rate 1e-4
+--weight_decay 1e-2
+--adam_eps 1e-3
+--num_threads 1
+--max_depth 1.55
+--min_depth -0.47
+--input_height 320
+--input_width 480
+--log_directory ./models
+--att_rank 5
+--multiprocessing_distributed
+--gpu 8
+
+--log_freq 170
+--do_online_eval
+--eval_freq 120
+--data_path_eval /data/Dataset/UrbanLF-syn/val/

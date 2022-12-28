@@ -1,0 +1,24 @@
+--mode train
+--model_name bts_hci_v2_pytorch_att
+--encoder resnet101_bts
+--dataset hci
+--data_path /data/Dataset/full_data/addational/
+--batch_size 16
+--num_epochs 10000
+--learning_rate 1e-4
+--weight_decay 1e-2
+--adam_eps 1e-3
+--num_threads 1
+--max_depth 4
+--min_depth -4
+--input_height 128
+--input_width 128
+--log_directory ./models
+--att_rank 5
+--multiprocessing_distributed
+--gpu 8
+
+--log_freq 100
+--do_online_eval
+--eval_freq 200
+--data_path_eval /data/Dataset/full_data/stratified/
